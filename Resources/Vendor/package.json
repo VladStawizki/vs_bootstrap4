@@ -1,0 +1,22 @@
+{
+  "name": "vs_bootstrap4",
+  "version": "1.0.0",
+  "description": "Add all Bootstrap 4 Dependencies for Frontend",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moonCrawler/vs_bootstrap4.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-2.0+",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "VLST/vs_bootstrap4",
+    "type": "typo3-cms-extension",
+    "description": "Add all Bootstrap 4 Dependencies for Frontend",
+    "homepage": "https://github.com/moonCrawler/vs_bootstrap4",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "Bootstrap 4"],
+    "support": {
+        "issues": "https://github.com/moonCrawler/vs_bootstrap4/issues"
+    },
+    "version": "1.0.0",
+
+    "require": {
+      "composer/installers": "*"
+    }
+}

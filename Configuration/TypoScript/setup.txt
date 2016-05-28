@@ -1,0 +1,9 @@
+page {
+  includeCSS {
+    main = EXT:vs_bootstrap4/Resources/Public/css/main.min.css
+  }
+
+  includeJSFooter {
+      bootstrap = EXT:vs_bootstrap3/Resources/Public/javascripts/bootstrap.min.js
+  }
+}
