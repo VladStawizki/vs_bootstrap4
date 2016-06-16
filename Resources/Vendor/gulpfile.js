@@ -7,6 +7,7 @@ var rename = require('gulp-rename');
 
 var config = {
   bootstrapDir: './node_modules/bootstrap',
+  tetherDir: './node_modules/tether',
   publicDir: '../Public',
 };
 
@@ -35,8 +36,14 @@ gulp.task('copy-bootsrap-js', function() {
     .pipe(gulp.dest(config.publicDir + '/javascripts'));
 });
 
+gulp.task('copy-tether-js', function() {
+  return gulp.src(config.tetherDir + '/dist/js/tether.min.js')
+    .pipe(gulp.dest(config.publicDir + '/javascripts'));
+});
+
 gulp.task('default', [
   'css',
   'clean-css',
   'copy-bootsrap-js',
+  'copy-tether-js',
 ]);
